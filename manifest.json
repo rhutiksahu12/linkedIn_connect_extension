@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Connect",
+    "version": "1.0.0",
+    "description": "auto-Connect to your LinkedIn search results",
+    
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "linkedin Connect"
+    }
+}
